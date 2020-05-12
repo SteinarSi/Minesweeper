@@ -62,7 +62,10 @@ public class Gui extends JPanel {
             int X = neigh.getX();
             int Y = neigh.getY();
             if(neigh.isRevealed() || neigh.isMarked()) continue;
-            else if(neigh.isMine()) gameOver(X, Y);
+            else if(neigh.isMine()){
+                gameOver(X, Y);
+                break;
+            }
             else{
                 neigh.reveal();
                 JButton butt = buttons.get(X, Y);
