@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bde04c7b-e47b-424e-b0b3-88660e1e19b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minesweeper/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Minesweeper/Minesweeper/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Minesweeper/Minesweeper/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Minesweeper/Minesweeper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Minesweeper/Minesweeper/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Minesweeper/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1bdYylWrVmUcdbPyzVZj65ORGh3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,7 +73,18 @@
       <option name="presentableId" value="Default" />
       <updated>1588963693538</updated>
     </task>
+    <task id="LOCAL−00001" summary="Fikset funky oppførsel når man taper og starter på nytt.">
+      <created>1589281206952</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1589281206952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fikset funky oppførsel når man taper og starter på nytt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset funky oppførsel når man taper og starter på nytt." />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Project_Structure" timestamp="1588963707283">
@@ -82,21 +99,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589050423314" />
-    <state width="304" height="912" key="GridCell.Tab.0.bottom" timestamp="1589064814945">
+    <state x="609" y="115" key="CommitChangelistDialog2" timestamp="1589281206412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="304" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589064814945" />
-    <state width="304" height="912" key="GridCell.Tab.0.center" timestamp="1589064814945">
+    <state x="609" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589281206412" />
+    <state width="632" height="912" key="GridCell.Tab.0.bottom" timestamp="1589811653871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="304" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589064814945" />
-    <state width="304" height="912" key="GridCell.Tab.0.left" timestamp="1589064814944">
+    <state width="632" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589811653871" />
+    <state width="632" height="912" key="GridCell.Tab.0.center" timestamp="1589811653871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="304" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589064814944" />
-    <state width="304" height="912" key="GridCell.Tab.0.right" timestamp="1589064814945">
+    <state width="632" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589811653871" />
+    <state width="632" height="912" key="GridCell.Tab.0.left" timestamp="1589811653870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="304" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589064814945" />
+    <state width="632" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589811653870" />
+    <state width="632" height="912" key="GridCell.Tab.0.right" timestamp="1589811653871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589811653871" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1589281211775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589281211775" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589811700955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589811700955" />
   </component>
 </project>
